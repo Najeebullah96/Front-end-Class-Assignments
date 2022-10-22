@@ -1,0 +1,60 @@
+:root {
+  --color-primary: #49df86;
+  --color-white: #fff;
+}
+body {
+  font-family: sans-serif;
+  color: #fff;
+  line-height: 1;
+  font-weight: lighter;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  padding: 30px;
+  background: #1f2937;
+}
+.green-color {
+  color: var(--color-primary);
+}
+p {
+  color: darkgray;
+  line-height: 0;
+  margin-bottom: 80px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-green:hover {
+  background: #3bb66c;
+}
+.btn-green {
+  color: whitesmoke;
+  background: var(--color-primary);
+}
+.btn-transparant {
+  color: var(--color-primary);
+  background: #2d3c5063;
+}
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+.btn-group .btn {
+  flex-grow: 1;
+  height: 20px;
+  text-align: center;
+  width: 15ch;
+}
+hr {
+  color: gray;
+  opacity: 10%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
